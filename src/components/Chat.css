@@ -1,0 +1,70 @@
+/* Chat.css */
+.chat-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.conversation-list, .message-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.message-list {
+    width: 60%;
+}
+
+.conversation-button {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.conversation-button:hover {
+    background-color: #e0e0e0;
+}
+
+.message-input-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.message-input {
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.you-message {
+    text-align: right;
+    background-color: #d1f4d1;
+}
+
+.seen-indicator {
+    font-size: 0.8em;
+    color: #aaa;
+    margin-left: 5px;
+}
+
+.message-timestamp {
+    font-size: 0.8em; /* Adjust the font size as needed */
+    font-style: italic;
+    color: #666; /* Optional: Adjust the color as needed */
+    margin-top: 5px; /* Optional: Add some spacing */
+}

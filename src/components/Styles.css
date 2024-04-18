@@ -1,0 +1,32 @@
+/* Custom CSS to style buttons pink */
+.btn-pink {
+    background-color: rgb(203, 177, 147) !important; /* Use !important to ensure the color is applied */
+    color: #fff; /* Text color on the pink background */
+    /* You can customize other styles as needed */
+  }
+
+  /* custom.css */
+
+  .pink-with-contour-and-shadow {
+    color: rgb(203, 177, 147);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value to control the vertical centering */
+  }
+  
+  body {
+
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
